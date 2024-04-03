@@ -12,9 +12,9 @@ Deployed on Render.com
 
 ### Expected Input and Output Format :
 
-URL: https://text-similarity-6bqi.onrender.com/text-similarity/
-Endpoint : /text-similarity/
-Method: POST
+- URL: https://text-similarity-6bqi.onrender.com/text-similarity/
+- Endpoint : /text-similarity/
+- Method: POST
 Request Body:
 ```
 {
