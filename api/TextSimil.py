@@ -4,8 +4,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-path = f'/Users/hp/Desktop/DataNeuron_Text_Similarity.csv'
-df = pd.read_csv(path)
+# path = f'/Users/hp/Desktop/DataNeuron_Text_Similarity.csv'
+# path = f'/DataNeuron_Text_Similarity.csv'
+# df = pd.read_csv(path)
 
 # df['text1']
 
@@ -27,7 +28,7 @@ def get_similarity(sentence1, sentence2):
 
     return similarity[0][0]
 
-df['processed'] = df.apply(lambda col: get_similarity(col['text1'], col['text2']), axis=1)
+# df['processed'] = df.apply(lambda col: get_similarity(col['text1'], col['text2']), axis=1)
 
 # df
 
