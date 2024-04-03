@@ -12,17 +12,21 @@ Deployed on Render.com
 
 ### Expected Input and Output Format :
 
-- URL: https://text-similarity-6bqi.onrender.com/text-similarity/
-- Endpoint : /text-similarity/
-- Method: POST
-Request Body:
+```
+  URL: https://text-similarity-6bqi.onrender.com/text-similarity/
+  Endpoint : /text-similarity/
+  Method: POST
+```
+
+#### Request Body:
 ```
 {
     "text1": "First text to compare",
     "text2": "Second text to compare"
 }
 ```
-Response:
+
+#### Response:
 ```
 {
     "similarity_score": 0.75
